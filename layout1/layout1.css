@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-section {
+  min-height: 100vh;
+  display: grid;
+  place-content: center; 
+  box-sizing: border-box;
+}
+
+.header{
+    margin-bottom: 69px;
+    font-size: 50px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0, auto;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, 200px);
+    row-gap: 24px;
+    column-gap: 23px;
+}
+
+
+.container img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
