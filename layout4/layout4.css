@@ -53,29 +53,29 @@
     place-content: center;
 }
 
-#left-item2 {
+.left-item2 {
     grid-column-start: 2;
 }
 
-#left-item3 {
+.left-item3 {
     grid-column-start: 1;
 }
 
-#left-item4 {
+.left-item4 {
     grid-column-start: 3;
 }
 
-#right-item2{
+.right-item2{
     grid-row-start: 2;
     grid-column-start: 2;
 }
 
-#right-item3{
+.right-item3{
     grid-row-start: 3;
     grid-column-start: 1;
 }
 
-#right-item4{
+.right-item4{
     grid-row-start: 4;
     grid-column-start: 2;
 }
